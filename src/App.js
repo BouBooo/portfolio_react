@@ -1,7 +1,7 @@
 import React from 'react';
 //import logo from './logo.svg';
 import './App.css';
-import { Layout, Header, Navigation, Drawer, Content } from 'react-mdl';
+import { Layout, Header, Navigation, Content } from 'react-mdl';
 import Main from './components/main.js';
 import { Link } from 'react-router-dom';
 
@@ -17,14 +17,6 @@ function App() {
                     <Link to="/contact">Contact</Link>
                 </Navigation>
             </Header>
-            <Drawer title="Title">
-                <Navigation>
-                    <a href="/">Link</a>
-                    <a href="/">Link</a>
-                    <a href="/">Link</a>
-                    <a href="/">Link</a>
-                </Navigation>
-            </Drawer>
             <Content>
                 <div className="page-content" />
                 <Main/>
