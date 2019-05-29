@@ -22,6 +22,9 @@ class Contact extends Component {
                         </Cell>
                     </div>
                 </div>
+                <div class="copyright">
+                    <p>&copy; 2019, NICOLAS Florent</p>
+                </div>
             </Grid>
         )
     }

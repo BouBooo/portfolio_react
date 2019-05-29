@@ -29,6 +29,9 @@ class LandingPage extends Component {
                         </div>
 
                     </Cell> 
+                    <div class="copyright-landing">
+                        <p>&copy; 2019, NICOLAS Florent</p>
+                    </div>
                 </Grid>
             </div>
         )

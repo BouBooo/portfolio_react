@@ -231,6 +231,9 @@ class Projects extends Component {
                         </Cell>
                     </Grid>
                 </section>
+                <div class="copyright">
+                    <p>&copy; 2019, NICOLAS Florent</p>
+                </div>
             </div>
 
 

@@ -39,8 +39,70 @@ class Resume extends Component {
 					</div>
 				</div>
 
+				
 				<div class="refSkill">
+					<div class="skills">
+								<div class="skills-title">
+									<img class="skills-img-title" alt="skills-icon" src="http://www.pictureshack.ru/images/93569_skillsIcon.png"/>
+									<span class="resume-skills-title">Expérience</span>
+								</div>
+								<div class="experience-elements">
+								<h4>Stages</h4>
+									<div class="stages">
+										<div class="stages-dates">
+											<p>11/06/2019  08/08/2019</p>
+											<p>23/04/2019  30/05/2019</p>
+										</div>
+										<div class="stages-content">
+											<p>Développement Web (ReactJS, PHP, HTML/CSS)</p>
+											<p>SEO Optimisation & Référencement</p>
+										</div>
+									</div>
+								</div>
+						</div>
 						<div class="skills">
+							<div class="skills-title">
+								<img class="skills-img-title" alt="skills-icon" src="http://www.pictureshack.ru/images/93569_skillsIcon.png"/>
+								<span class="resume-skills-title">Formation</span>
+							</div>
+							<div class="experience-elements">
+							<h4>Stages</h4>
+								<div class="stages">
+									<div class="stages-dates">
+										<p>Juin 2016</p>
+										<p>Depuis 2017</p>
+									</div>
+									<div class="stages-content">
+										<p>Baccalauréat, Option Maths</p>
+										<p>Bachelor 2  - Ingésup</p>
+									</div>
+								</div>
+							</div>
+					</div>
+				</div>
+
+				<div class="refSkill">
+					<div class="skills">
+						<div class="skills-title">
+							<img class="skills-img-title" alt="skills-icon" src="http://www.pictureshack.ru/images/93569_skillsIcon.png"/>
+							<span class="resume-skills-title">Compétences</span>
+						</div>
+						<div class="experience-elements">
+							<div class="stages">
+								<div class="stages-title">
+									<p>Frameworks</p>
+									<p>Databases</p>
+									<p>Autres</p>
+								</div>
+								<div class="stages-content">
+									<p>Symfony, Descartes, Micro-framework personnel</p>
+									<p>MySQL, PostgreSql, MariaDB, Oracle, SQLite</p>
+									<p>NodeJS, ReactJS</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="skills">
 							<div class="skills-title">
 								<img class="skills-img-title" alt="skills-icon" src="http://www.pictureshack.ru/images/93569_skillsIcon.png"/>
 								<span class="resume-skills-title">Langages informatiques</span>
@@ -79,105 +141,42 @@ class Resume extends Component {
 									</div>
 								</div>
 							</div>
-
-						</div>
-						<div class="references">
-
-							<div class="skills">
-								<div class="skills-title">
-									<img class="skills-img-title" alt="skills-icon" src="http://www.pictureshack.ru/images/93569_skillsIcon.png"/>
-									<span class="resume-skills-title">Langues</span>
-								</div>
-
-								<div class="progress_list">
-									<div class="ul_languages">
-										<ul>
-											<li><span class="skill">Français</span></li>
-											<li><span class="skill">Anglais </span></li>
-											<li><span class="skill">Espagnol</span></li>
-										</ul>
-									</div>
-
-									<div class="progressBar">
-										<div class="progress">
-											<div class="green" id="french"></div>
-											<div class="gray"></div>
-										</div>
-										<div class="progress">
-											<div class="green" id="english"></div>
-											<div class="gray"></div>
-										</div>
-										<div class="progress">
-											<div class="green" id="spanish"></div>
-											<div class="gray"></div>
-										</div>
-
-									</div>
-								</div>
-							</div>
 						</div>
 				</div>
+				<div class="refSkill">
+					<div class="references">
+						<div class="skills">
+							<div class="skills-title">
+								<img class="skills-img-title" alt="skills-icon" src="http://www.pictureshack.ru/images/93569_skillsIcon.png"/>
+								<span class="resume-skills-title">Langues</span>
+							</div>
 
-				<div class="refSkill">
-					<div class="skills">
-							<div class="skills-title">
-								<img class="skills-img-title" alt="skills-icon" src="http://www.pictureshack.ru/images/93569_skillsIcon.png"/>
-								<span class="resume-skills-title">Expérience</span>
-							</div>
-							<div class="experience-elements">
-							<h4>Stages</h4>
-								<div class="stages">
-									<div class="stages-dates">
-										<p>11/06/2019  08/08/2019</p>
-										<p>23/04/2019  30/05/2019</p>
+							<div class="progress_list">
+								<div class="ul_languages">
+									<ul>
+										<li><span class="skill">Français</span></li>
+										<li><span class="skill">Anglais </span></li>
+										<li><span class="skill">Espagnol</span></li>
+									</ul>
+								</div>
+
+								<div class="progressBar">
+									<div class="progress">
+										<div class="green" id="french"></div>
+										<div class="gray"></div>
 									</div>
-									<div class="stages-content">
-										<p>Développement Web (ReactJS, PHP, HTML/CSS)</p>
-										<p>SEO Optimisation & Référencement</p>
+									<div class="progress">
+										<div class="green" id="english"></div>
+										<div class="gray"></div>
 									</div>
+									<div class="progress">
+										<div class="green" id="spanish"></div>
+										<div class="gray"></div>
+									</div>
+
 								</div>
 							</div>
-					</div>
-					<div class="skills">
-							<div class="skills-title">
-								<img class="skills-img-title" alt="skills-icon" src="http://www.pictureshack.ru/images/93569_skillsIcon.png"/>
-								<span class="resume-skills-title">Compétences</span>
-							</div>
-							<div class="experience-elements">
-								<div class="stages">
-									<div class="stages-title">
-										<p>Frameworks</p>
-										<p>Databases</p>
-										<p>Autres</p>
-									</div>
-									<div class="stages-content">
-										<p>Symfony, Descartes, Micro-framework personnel</p>
-										<p>MySQL, PostgreSql, MariaDB, Oracle, SQLite</p>
-										<p>NodeJS, ReactJS</p>
-									</div>
-								</div>
-							</div>
-					</div>
-				</div>
-				<div class="refSkill">
-					<div class="skills">
-							<div class="skills-title">
-								<img class="skills-img-title" alt="skills-icon" src="http://www.pictureshack.ru/images/93569_skillsIcon.png"/>
-								<span class="resume-skills-title">Formation</span>
-							</div>
-							<div class="experience-elements">
-							<h4>Stages</h4>
-								<div class="stages">
-									<div class="stages-dates">
-										<p>11/06/2019  08/08/2019</p>
-										<p>23/04/2019  30/05/2019</p>
-									</div>
-									<div class="stages-content">
-										<p>Développement Web (ReactJS, PHP, HTML/CSS)</p>
-										<p>SEO Optimisation & Référencement</p>
-									</div>
-								</div>
-							</div>
+						</div>
 					</div>
 					<div class="skills">
 							<div class="skills-title">
@@ -211,6 +210,9 @@ class Resume extends Component {
 				</div>
 				
 			</div>
+			<div class="copyright">
+                <p>&copy; 2019, NICOLAS Florent</p>
+            </div>
 		</div>
         )
     }

@@ -1,14 +1,14 @@
 
 .header-color {
-  background: #833ab4;
-  background: -webkit-linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);
-  background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);
+  background: #98DA98;
+  background: -webkit-linear-gradient(to right, #2334BC, #111958, #040936);
+  background: linear-gradient(to right, #2334BC, #111958,#040936);
 }
 
 .landing-grid {
   background: #833ab4;
-  background: -webkit-linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);
-  background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);
+  background: -webkit-linear-gradient(to right, #2334BC, #111958, #040936);
+  background: linear-gradient(to right, #2334BC, #111958, #040936);
   text-align: center;
 }
 
@@ -32,6 +32,11 @@
   width: 75%;
   margin: auto;
   border-radius: 10px; 
+}
+
+
+.projects-grid ul {
+	padding-left: 2em;
 }
 
 .banner-text h1 {
@@ -196,16 +201,9 @@
 	display: flex;
 }
 
-.stages-dates {
-	border: 2px solid black;
-}
 
 .jobs {
 	display: flex;
-}
-
-.resume-skills-title {
-	border: 2px solid black;
 }
 
 * {
@@ -216,13 +214,11 @@
   height: 250px;
   border-radius: 100%;
 	float: center;
-	border: 2px solid black;
 }
 
 .loisirs-container {
 	display: flex;
 	justify-content: space-around;
-	border: 2px solid green;
 }
 
 .loisirs-element  {
@@ -305,7 +301,6 @@
 
 .address {
 	text-align: right;
-	border: 2px solid black;
 }
 
 table {
@@ -446,14 +441,12 @@ table td img {
 .refSkill {
 	display: inline-block;
   width: 100%;
-  border: 2px solid black;
 }
 
 
 .skills {
 	width: 50%;
   float: left;
-  border: 2px solid black;
 }
 
 .skills-img-title {
@@ -465,13 +458,7 @@ table td img {
   font-size: 24px;
   padding-bottom: 5%;
 	padding-top: 5%;
-	border: 2px solid black;
 	width: 100%;
-}
-
-.stages-content {
-
-	border: 2px solid red;
 }
 
 .stages-title {
@@ -1027,4 +1014,48 @@ body {
   .section h1 {
     margin: 20px 6px;
   }
+}
+
+
+/*  ABOUT ME   */
+
+.aboutme-title {
+	text-align: center;
+	width: 100%;
+}
+
+.aboutme-content {
+	padding-top: 2em; 
+	margin: 0 auto;
+	text-align: center;
+	width: 50%;
+}
+
+.aboutme-content p {
+	font-size: 18px;
+}
+
+/* COPYRIGHT */
+
+.copyright {
+	width: 50%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.copyright-aboutme {
+	position: absolute;
+	bottom: 0;
+	width: 50%;
+	margin: 0 auto;
+	margin-left: 25%;
+	text-align: center;
+
+}
+
+.copyright-landing {
+	width: 15%;
+	margin: 0 auto;
+	text-align: center;
+	color: white;
 }
